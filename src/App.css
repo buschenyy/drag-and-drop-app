@@ -1,0 +1,39 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #161616;
+}
+
+.drop-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.drop-zone {
+  width: 200px;
+  background-color: #282828;
+  padding: 25px;
+  padding-bottom: 100px;
+  border-radius: 0 20px 0 20px;
+  transition: all 0.4s;
+}
+.items {
+  cursor: pointer;
+  color: white;
+  padding: 8px;
+  margin-bottom: 4px;
+  border-bottom: 2px solid #cbb0db;
+}
+.onDrag {
+  background: rgba(146 126 244 0.7);
+}
+.drop-container h4 {
+  color: #927ef4;
+  transition: all 0.4s;
+}
+.onDrag h4 {
+  color: white;
+}
