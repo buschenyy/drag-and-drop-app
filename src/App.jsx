@@ -6,7 +6,7 @@ import DropZone from './DropZone'
 
 function App() {
   const [listItems, setListItems] = useState([
-    { id: 3, text: 'Item 1' },
+    { id: 1, text: 'Item 1' },
     { id: 2, text: 'Item 2' },
     { id: 3, text: 'Item 3' },
   ])
@@ -30,7 +30,7 @@ function App() {
     }
   }
   return (
-    <div className='App'>
+    <div className="App">
       <DndProvider backend={HTML5Backend}>
         <div className="drop-container">
           <DropZone

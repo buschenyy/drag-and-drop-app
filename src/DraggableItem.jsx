@@ -9,9 +9,11 @@ const DraggableItem = ({ item }) => {
     }),
   }))
 
-  return (<div ref={drag} className='items'>
-    {item.text}
-  </div>)
+  return (
+    <div ref={drag} className="items">
+      {item.text}
+    </div>
+  )
 }
 
 export default DraggableItem
